@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Navigation Drawer</h3>
+    <hr>
+    <div>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'trips' %}">Trips</a></li>
+            <li><a href="{% url 'trucks' %}">Trucks</a></li>
+            <li><a href="{% url 'users' %}">Users</a></li>
+            <li><a href="{% url 'customers' %}">Customers</a></li>
+            <li><a href="{% url 'reports' %}">Reports</a></li>
+        </ul>
+    </div>
+</body>
+</html>
